@@ -1,0 +1,21 @@
+language: en
+wake_word: "Hey Krishi"
+speech_recognition:
+  language: "en-US"
+  model: "default"
+text_to_speech:
+  language: "en-US"
+  voice: "default"
+multilingual_support:
+  enabled: true
+  languages:
+    - "en"
+    - "es"
+    - "fr"
+    - "de"
+third_party_integrations:
+  music_service: "Spotify"
+  weather_service: "OpenWeatherMap"
+logging:
+  level: "INFO"
+  file: "assistant.log"
